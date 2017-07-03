@@ -8,3 +8,6 @@ Provides script functions for reading and generating vCards through the ez-vcard
 
 ## Additional steps
 If you need more functionality from the ez-vcard library than this module exposes, please feel free to edit the code and contribute back any changes.
+
+## Screenshot
+![Screenshot](/Screenshot.png)
