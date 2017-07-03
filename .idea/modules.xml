@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/vCard.iml" filepath="$PROJECT_DIR$/vCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vCard-build/vCard-build.iml" filepath="$PROJECT_DIR$/vCard-build/vCard-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vCard-client/vCard-client.iml" filepath="$PROJECT_DIR$/vCard-client/vCard-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vCard-common/vCard-common.iml" filepath="$PROJECT_DIR$/vCard-common/vCard-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vCard-designer/vCard-designer.iml" filepath="$PROJECT_DIR$/vCard-designer/vCard-designer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vCard-gateway/vCard-gateway.iml" filepath="$PROJECT_DIR$/vCard-gateway/vCard-gateway.iml" />
+    </modules>
+  </component>
+</project>

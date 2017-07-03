@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.ignitionmdc.vCard</groupId>
+    <artifactId>vCard</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>vCard Ignition Module</name>
+    <description>vCard Ignition Module</description>
+
+    <properties>
+        <ignition-sdk-version>7.7.5</ignition-sdk-version>
+    </properties>
+
+    <modules>
+        <module>vCard-build</module>
+        <module>vCard-client</module>
+        <module>vCard-common</module>
+        <module>vCard-designer</module>
+        <module>vCard-gateway</module>
+    </modules>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>releases</id>
+            <url>http://nexus.inductiveautomation.com:8081/nexus/content/repositories/inductiveautomation-releases</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <repositories>
+        <repository>
+            <id>releases</id>
+            <url>http://nexus.inductiveautomation.com:8081/nexus/content/repositories/inductiveautomation-releases</url>
+        </repository>
+
+        <repository>
+            <id>snapshots</id>
+            <url>http://nexus.inductiveautomation.com:8081/nexus/content/repositories/inductiveautomation-snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>thirdparty</id>
+            <url>http://nexus.inductiveautomation.com:8081/nexus/content/repositories/inductiveautomation-thirdparty
+            </url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.googlecode.ez-vcard</groupId>
+            <artifactId>ez-vcard</artifactId>
+            <version>0.10.2</version>
+        </dependency>
+    </dependencies>
+
+</project>
